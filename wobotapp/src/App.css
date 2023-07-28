@@ -70,7 +70,6 @@
   width: 300px;
   top: 5%;
   left: 0%;
-  /* border: 1px solid red; */
 }
 .main-cont{
   width: 30%;
@@ -82,20 +81,10 @@
   background-color: transparent;
 }
 .inputs-section{
-  /* border: 1px solid red; */
-  /* height: 10px; */
   width: 100%;
   border-radius: 15px;
-  /* position: absolute; */
-  /* top:50%;
-  left: 50%;
-  transform: translate(-50%, -50%);*/
   background-color: white; 
   padding-top: 20px;
-}
-
-.input-section .custom-logo{
-
 }
 svg{
   height: 48px;
@@ -140,7 +129,6 @@ p{
 
 .inputs{
   width: 70%;
-  /* border: 1px solid yellowgreen; */
   margin-left: 15%;
   text-align: left;
 }

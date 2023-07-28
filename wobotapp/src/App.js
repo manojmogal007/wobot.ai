@@ -39,6 +39,8 @@ function App() {
                 <label>Industry</label><br/>
                 <select>
                   <option>Select</option>
+                  <option>Option-1</option>
+                  <option>Option-2</option>
                 </select>
                 <label>Number of Locations</label>
                 <div className='locations'>
