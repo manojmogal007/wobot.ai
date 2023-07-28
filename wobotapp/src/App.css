@@ -1,0 +1,183 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.container{
+  height: 100vh;
+  background-color: #f9f9f9;
+  position: relative;
+  overflow: hidden; 
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+.rotate{
+  background-color: #f5f5f5;
+  height: 400px;
+  width: 120vw;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  transform-origin: center;
+  transform: rotate(-30deg);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-30deg);
+}
+.rotate>div:nth-child(1){
+  height: 100%;
+  border-top: 8px solid #b3c5ee;
+}
+.rotate>div:nth-child(2){
+  height: 100%;
+  border-bottom: 8px solid #d1d2d4;
+}
+.company-logo{
+  position: absolute;
+  height: 100px;
+  width: 300px;
+  top: 5%;
+  left: 0%;
+  /* border: 1px solid red; */
+}
+.main-cont{
+  width: 30%;
+  border-radius: 15px;
+  position: absolute;
+  top:53%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: transparent;
+}
+.inputs-section{
+  /* border: 1px solid red; */
+  /* height: 10px; */
+  width: 100%;
+  border-radius: 15px;
+  /* position: absolute; */
+  /* top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);*/
+  background-color: white; 
+  padding-top: 20px;
+}
+
+.input-section .custom-logo{
+
+}
+svg{
+  height: 48px;
+  width: 52px;
+}
+.first{
+  width: 11px;
+  height: 27px;
+  transform: matrix(0.854439, -0.519552, 0.510535, 0.859857, 0.499878, 24.0586);
+  fill: rgb(55, 102, 232);
+  rx: 5.5px;
+}
+.second{
+  width: 11px;
+  height: 42px;
+  rx: 5.5px;
+  transform: matrix(0.854439, -0.519552, 0.510535, 0.859857, 12.3904, 8.65234);
+  fill: rgb(55, 102, 232);
+}
+.third{
+  width: 11px;
+  height: 21px;
+  rx: 5.5px;
+transform: matrix(0.854439, -0.519552, 0.510535, 0.859857, 31.0594, 5.73828);  fill: rgb(55, 102, 232);
+}
+
+.highlight{
+  width: 60%;
+  margin-left: 20%;
+}
+h3{
+  font-size: 25px;
+  margin-top: -0px;
+}
+.sentence,label{
+  font-weight:500 ;
+}
+p{
+  margin-top: -7px;
+  font-size: 14px;
+}
+
+.inputs{
+  width: 70%;
+  /* border: 1px solid yellowgreen; */
+  margin-left: 15%;
+  text-align: left;
+}
+.inputs>input,.inputs>select,.inputs>button{
+  width: 98%;
+  padding: 6px 2px;
+  border-radius: 3px ;
+  margin-top: 6px;
+  margin-bottom: 10px;
+  border: 1px solid grey;
+}
+.inputs>select{
+  width: 100%;
+}
+label{
+  font-size: 14px;
+}
+.locations{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+span{
+  background-color: rgb(255, 255, 255);
+  padding: 1.5px 8px;
+  border-radius: 3px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.inputs>button{
+  margin-top: 30px;
+  background-color: rgb(55, 102, 232);
+  border: none;
+  padding: 10px 0px;
+  color: white;
+  margin-bottom: 30px;
+}
+.terms{
+  margin-top: 25px;
+}
